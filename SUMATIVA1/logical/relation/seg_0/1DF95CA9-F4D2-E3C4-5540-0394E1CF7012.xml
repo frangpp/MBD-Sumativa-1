@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Residente_Habitacion" directorySegmentName="seg_0" id="1DF95CA9-F4D2-E3C4-5540-0394E1CF7012">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:18:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<sourcePk>AC3FECF7-75A0-DB73-9848-91D0B4CA35C5</sourcePk>
+<targetPk>0E48914D-34DE-B9A6-5D7E-20355492D2B1</targetPk>
+<identifying>false</identifying>
+<nameOnSource>utiliza</nameOnSource>
+<nameOnTarget>alberga</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5EB8CA37-1759-B472-CB11-8CC30E879EF9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1EB83845-8F1E-0444-58DB-5454668574B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

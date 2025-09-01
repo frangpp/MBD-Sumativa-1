@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1504B7AC-C6A8-D057-5873-F3D3719976B4" name="Apoderado">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 11:32:24 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EAAD3DEC-0E52-6A80-669E-4A52EB772ADD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Contacto" id="A57DA430-B10D-79B8-DA1A-3C448E388C08">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 12:12:02 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51D7C889-2679-8B3F-BDB2-12D48DED8104" name="Residente">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>5EB8CA37-1759-B472-CB11-8CC30E879EF9</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Persona" id="A5B589C2-92BE-D4F4-77A6-A316362275BF">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>04A7AF31-8104-7589-0AC3-329D3562F798</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F273DFA3-3095-C389-45C4-C99DC7876C75" referredColumn="9D1D850A-A35E-BD90-797C-5677F5AC3B31"/>
+</associations>
+</Column>
+<Column name="Autonomia" id="6C4B5206-148D-184E-688F-9BDA622FEB20">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>29D8AD4E-BA14-5C8B-EDB4-46217CAEE22D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Habitacion_IDHab" id="B0879E5B-6DA3-1703-CFA9-9B519BCFBE94">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>ADFDDC2D-6B5F-479B-1BB9-E6B32578CCD7</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C491FF2-2BC8-DB34-4527-DA757F6FC0D6" name="Residente_PK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F05812DC-8FA6-0510-5C33-FA0B1AF18B0D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B589C2-92BE-D4F4-77A6-A316362275BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E784C523-4E62-1F07-A8E7-48FB06F238D8" name="Residente_PKv1">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>AC3FECF7-75A0-DB73-9848-91D0B4CA35C5</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="DD09BAFC-4AE5-6CF4-44D1-A62AE8B29FD3" name="Residente__IDX">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1DF95CA9-F4D2-E3C4-5540-0394E1CF7012</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B0879E5B-6DA3-1703-CFA9-9B519BCFBE94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF539C34-4187-5133-E025-78CB02FDA9BC" name="Residente_Persona_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>C3E24AC1-A0F6-3437-9C43-4B8CDDEBEAF0</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B589C2-92BE-D4F4-77A6-A316362275BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

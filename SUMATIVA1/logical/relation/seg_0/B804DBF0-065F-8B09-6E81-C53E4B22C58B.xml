@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Personal_Residencia" directorySegmentName="seg_0" id="B804DBF0-065F-8B09-6E81-C53E4B22C58B">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:30:59 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<targetPk>89BA0152-5959-BD0F-D74D-933BE3C48C64</targetPk>
+<identifying>false</identifying>
+<nameOnSource>trabaja en</nameOnSource>
+<nameOnTarget>contrata</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3F65FD71-9CD0-30A0-8C18-AC00B7F0E8DC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3A414256-7C38-1199-512F-3BD883C54907</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

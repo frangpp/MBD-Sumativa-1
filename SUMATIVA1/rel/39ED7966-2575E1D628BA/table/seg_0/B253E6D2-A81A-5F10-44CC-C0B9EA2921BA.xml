@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B253E6D2-A81A-5F10-44CC-C0B9EA2921BA" name="Personal">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>3F65FD71-9CD0-30A0-8C18-AC00B7F0E8DC</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Persona" id="0D564C50-192E-1664-FDEC-EE63FE872A3F">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>04A7AF31-8104-7589-0AC3-329D3562F798</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="634F749F-9ADB-B191-0691-FA25EE43629C" referredColumn="9D1D850A-A35E-BD90-797C-5677F5AC3B31"/>
+</associations>
+</Column>
+<Column name="TipoContrato" id="8390378D-CB20-0775-9C4D-931A231FBC08">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>DE0D3DC4-9F46-8A53-F463-D3D2B3CC78A1</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Residencia_ID" id="63B6CC76-ED00-63A4-8B50-03A77F0CA5BC">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>B18165BE-50EE-D222-9950-D51142D47440</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACB82C91-FDAD-4FC8-1422-1B9AC4B14ECB" referredColumn="9704EEF4-347D-F03A-41D7-C100A09EAF72"/>
+</associations>
+</Column>
+<Column name="Especialidad" id="EDD82B7E-14DA-F70C-00A0-449246324893">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>B7DE702D-C2EA-4A80-268B-BFDA75C67349</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<ownDataTypeParameters>99,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turno1" id="A5F64EB5-A469-D795-7FDB-0805FE8DFC67">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>AEAAF907-F3BC-C83C-18D6-827173506768</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado1" id="9541034B-B4EC-AFA0-7392-3DF34F5206FE">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>34329DC6-5D79-A43F-BAA7-42448FE824C3</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Turno" id="D3CAFC61-C4CA-C2AA-14A7-F7F7B7974CAD">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>E7A5BB58-1A59-32E2-1D5B-9B4EA8D24A41</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="61A3A08B-46A5-45C0-BD81-24E2B8B75A18">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>C4A41FA8-A5BA-21F3-E5E2-5F7598657BED</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2B487C6-55C7-E3DE-784D-EC23B739F426" name="Personal_PK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F05812DC-8FA6-0510-5C33-FA0B1AF18B0D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D564C50-192E-1664-FDEC-EE63FE872A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19820146-C287-5DC0-AF3B-D5C1A1BDA606" name="Personal_Persona_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>6F66DF0D-7578-B936-43CC-40FF24168700</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D564C50-192E-1664-FDEC-EE63FE872A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD43D57-85A8-BCEC-1276-61075BF501BB" name="Personal_Residencia_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>B804DBF0-065F-8B09-6E81-C53E4B22C58B</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B6CC76-ED00-63A4-8B50-03A77F0CA5BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49754942-3B4E-143F-511A-5F4C8B0FDD3C" name="Permanente">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>14BC8E22-4558-730B-662D-0D424B15CBC1</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Persona" id="1227E949-B567-269B-82F9-252FA5C9669E">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>04A7AF31-8104-7589-0AC3-329D3562F798</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFD1631F-E64E-6BAE-5737-92D71C35AFF1" referredColumn="A5B589C2-92BE-D4F4-77A6-A316362275BF"/>
+</associations>
+</Column>
+<Column name="HistorialCli" id="BB88B499-82C2-4357-75B5-C838444FDF51">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>58B4EE3A-5923-15B1-8155-394C76995400</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<ownDataTypeParameters>99,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="929DB661-902D-3953-CD5F-99D598D592A9" name="Permanente_PK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F05812DC-8FA6-0510-5C33-FA0B1AF18B0D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1227E949-B567-269B-82F9-252FA5C9669E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3281C1F1-514E-B2E6-07A7-7CFCBBD374F3" name="Permanente_Residente_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>35D1537A-0330-8E58-C4E3-DF9A8CC5D3DE</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1227E949-B567-269B-82F9-252FA5C9669E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

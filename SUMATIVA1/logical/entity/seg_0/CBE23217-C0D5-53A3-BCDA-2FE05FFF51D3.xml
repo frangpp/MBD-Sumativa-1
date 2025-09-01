@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBE23217-C0D5-53A3-BCDA-2FE05FFF51D3" name="Temporal">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 12:15:12 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5EB8CA37-1759-B472-CB11-8CC30E879EF9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DiasEstadia" id="E18988D5-9B2E-623B-08CF-823FE7A511D0">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 12:19:14 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

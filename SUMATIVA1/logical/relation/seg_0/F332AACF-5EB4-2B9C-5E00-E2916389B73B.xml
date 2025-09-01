@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Apoderado_Contrato" directorySegmentName="seg_0" id="F332AACF-5EB4-2B9C-5E00-E2916389B73B">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 12:24:50 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<sourcePk>F05812DC-8FA6-0510-5C33-FA0B1AF18B0D</sourcePk>
+<targetPk>6D6A5B5C-C9A8-7334-AC3A-25BB1B328F8C</targetPk>
+<identifying>false</identifying>
+<nameOnSource>suscribe</nameOnSource>
+<nameOnTarget>pertenece a un</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1504B7AC-C6A8-D057-5873-F3D3719976B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B5C9688-F200-5CD1-0170-75747088B766</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

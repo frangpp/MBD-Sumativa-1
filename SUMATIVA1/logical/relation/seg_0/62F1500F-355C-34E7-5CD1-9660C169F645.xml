@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Residente_Anexo" directorySegmentName="seg_0" id="62F1500F-355C-34E7-5CD1-9660C169F645">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 12:25:51 UTC</createdTime>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<engineerTo>
+<item key="39ED7966-FC7A-3013-FE28-2575E1D628BA" value="true"/>
+</engineerTo>
+<sourcePk>AC3FECF7-75A0-DB73-9848-91D0B4CA35C5</sourcePk>
+<targetPk>6D6A5B5C-C9A8-7334-AC3A-25BB1B328F8C</targetPk>
+<identifying>false</identifying>
+<nameOnSource>suscribe detalles en</nameOnSource>
+<nameOnTarget>define estadia de</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5EB8CA37-1759-B472-CB11-8CC30E879EF9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F7C68197-CB6D-FA10-EB78-B8344CDFAC5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

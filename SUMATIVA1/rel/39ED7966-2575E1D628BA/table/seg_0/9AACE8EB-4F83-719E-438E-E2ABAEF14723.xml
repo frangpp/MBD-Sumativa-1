@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AACE8EB-4F83-719E-438E-E2ABAEF14723" name="Anexos">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F7C68197-CB6D-FA10-EB78-B8344CDFAC5D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F2DD280A-1585-0DCD-EBEA-D5B49772E657">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>0714BD28-4842-7D5E-3DF9-5FEB5E6D1AD6</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD38127E-F2A1-24DE-AA38-C7CC3563A7C8" referredColumn="D3963FC5-83B6-473A-8E87-8831E2DF757E"/>
+</associations>
+</Column>
+<Column name="NombreRe" id="0CC5F912-7713-A6E0-B06B-8C494A1C0552">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>FDB42BF8-8DFE-9AFB-CCD7-40FA0BA7FD91</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<ownDataTypeParameters>99,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="2BCF947C-7671-3C27-100C-03C06E2F7DAE">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>D56007A2-A3A6-2F9A-751E-1B0D5D815C60</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaTermino" id="8A247F53-3AC9-069A-2EC8-4F343282C007">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>7BE0725B-0DE5-66FB-E1C7-CD69BF44DCFF</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Obs" id="C9FEE841-7AA3-3426-7B6D-B81F62747AD9">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>4A02C247-0E7B-50B2-E7D6-6F3335C28CA0</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>99</dataTypeSize>
+<ownDataTypeParameters>99,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EACDE006-099C-59E2-8B00-38E9E349E13F" name="Anexos_PK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>6D6A5B5C-C9A8-7334-AC3A-25BB1B328F8C</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2DD280A-1585-0DCD-EBEA-D5B49772E657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7914379F-E358-614C-1D2C-0E60C602B5C7" name="Anexos_Contrato_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F498AF97-237C-8AA2-8717-E2FF9FBEB71D</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2DD280A-1585-0DCD-EBEA-D5B49772E657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAFD42D1-D4F3-ECAC-8955-96947845EBE4" name="Anexos_Residente_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>62F1500F-355C-34E7-5CD1-9660C169F645</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

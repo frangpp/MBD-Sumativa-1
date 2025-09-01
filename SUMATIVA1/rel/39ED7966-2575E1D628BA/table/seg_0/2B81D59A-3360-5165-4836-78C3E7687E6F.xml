@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B81D59A-3360-5165-4836-78C3E7687E6F" name="Contrato">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>7B5C9688-F200-5CD1-0170-75747088B766</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D3963FC5-83B6-473A-8E87-8831E2DF757E">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>0714BD28-4842-7D5E-3DF9-5FEB5E6D1AD6</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="5B914A53-80D8-F16D-81E7-6E82DDACA745">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>42B28CE9-893A-7F14-3A5F-121CBD048CEC</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaTermino" id="AD0FDF3D-38AA-672E-953E-B4B88539D57B">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>EDB3C885-E087-5633-DC88-220F1CE81618</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Financiamiento" id="DC3A5838-65D0-81B1-C81D-64CD96469F0C">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>10D716B2-A63D-108F-2604-2075809C3BC0</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apoderado_ID_Persona" id="7BF60438-BF40-B7A3-66C0-CFE3733C3A8B">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>B02397BB-0D0F-53D3-F942-888694875E74</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="518A1474-E949-210A-F530-71C4A95BD16C" referredColumn="9D5C8F33-3077-6C80-3192-F1E241AAA1B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB74127D-DEEE-40D3-56D2-97105D260C06" name="Contrato_PK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>6D6A5B5C-C9A8-7334-AC3A-25BB1B328F8C</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3963FC5-83B6-473A-8E87-8831E2DF757E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D99746F-1340-9F53-7BB5-2C53FF107089" name="Contrato_Apoderado_FK">
+<createdBy>franciscagoeppinger</createdBy>
+<createdTime>2025-08-30 15:34:55 UTC</createdTime>
+<generatorID>F332AACF-5EB4-2B9C-5E00-E2916389B73B</generatorID>
+<ownerDesignName>SUMATIVA1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF60438-BF40-B7A3-66C0-CFE3733C3A8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
